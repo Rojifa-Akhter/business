@@ -1,0 +1,86 @@
+.box-40 img {
+    width: 40px;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.dashboard {
+    width: 100%; /* Make the button take up the full width */
+}
+.list-unstyled {
+    list-style: none;
+    padding-left: 0;
+}
+.custom-container {
+    margin-top: 18px;
+}
+.conversation-box {
+    border: none;
+    border-radius: 8px;
+    height: 650px; 
+}
+.conversation-aside {
+    border-right: 1px solid #ddd;
+    max-height: 100%;
+    overflow-y: auto;
+}
+.conversation-body {
+    max-height: 100%;
+    overflow-y: auto;
+}
+.chat-filter-input-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.chat-filter-input-group input {
+    flex: 1;
+    padding-right: 40px; /* Adjusted to provide space for the clear icon */
+    border-radius: 30px;
+    height: 38px;
+    box-sizing: border-box;
+    color: #333; /* Color for the text */
+}
+.chat-filter-input-group input::placeholder {
+    color: #333; /* Color for the placeholder text to match close icon */
+}
+.text-13 {
+    font-size: 13px;
+}
+.text-15 {
+    font-size: 15px;
+}
+.chat-contact-filter-clear {
+    position: absolute;
+    right: 10px; /* Adjust for alignment */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333; /* Match with the input text color */
+    display: none; /* Initially hidden */
+}
+.chat-contact-filter-clear i {
+    font-size: 16px; /* Icon size */
+}
+.card {
+    border: 1px solid #ddd; /* Add a border to the card */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+/* Hide the file input field */
+.attach-file-input input[type="file"] {
+    display: none; /* Hide the file input field */
+}
+
+/* Style the label to look like a clickable button */
+.attach-file label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Optional: Add styling to indicate that the label is interactive */
+.attach-file label:hover {
+    color: #0056b3; /* Change color on hover */
+}

@@ -1,0 +1,617 @@
+.col-md-4{
+    padding-left:12px ; 
+    padding-right: 12px;  
+}
+col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Barlow", sans-serif;
+}
+
+.header-section {
+    background-color: #FEF5F4;
+    padding: 80px;
+    text-align: center;
+    height: 110vh;
+}
+
+.header-title {
+    font-size: 66px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-subtitle {
+    padding: 20px;
+    font-size: 20px;
+    color: #252530;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    max-width: 700px;
+    margin: 0 auto; /* Center the container */
+    border-radius: 20px;
+}
+
+.search-input {
+    border: 1px solid #252530;
+    height: 60px;
+    border-left: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.input-group-text {
+    border: 1px solid #252530;
+    border-right: none;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.input-group-text .bi-search {
+    font-size: 1.3rem;
+    color: #252530;
+    font-weight: 400px;
+}
+
+.topnav .nav-item {
+    font-weight: bold;
+}
+.btn-review{
+    background-color:#0D6EFD;
+    color:#FFFFFF;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.btn-review:hover {
+    background-color: #0343DF;
+    color: #FFFFFF;
+}
+.btn-sign{
+    background-color:#FFFFFF;
+    border: 1px solid #0D6EFD;
+    color:#0D6EFD;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.btn-sign:hover {
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+}
+
+.category {
+    text-decoration: none !important;
+    color: #0D6EFD;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.item_category {
+    text-decoration: none !important;
+    font-size: 13px;
+}
+
+.modal-body {
+    position: relative;
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.softwareModal, .serviceModal, .businessModal {
+    margin-top: 5%;
+}
+
+.btn-category {
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+/* footer section */
+footer {
+    background-color: #00112C;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.footer-heading {
+    color:#fff;
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #555;
+    padding-bottom: .5rem;
+    font-size: 18px;
+}
+
+.footer-logo {
+    max-width: 25px;
+}
+
+.footer-text {
+    font-size: 15px;
+}
+
+.footer-links {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #ddd;
+}
+
+.footer-divider {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-item {
+    margin-bottom: 10px;
+}
+
+.footer-nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px 0px;
+}
+
+.footer-nav-link:hover {
+    text-decoration: underline;
+}
+/* software_discover */
+.software_discover {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.software-banner {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.software-banner:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.software-banner .card-body {
+    padding: 0;
+}
+
+.software-banner .row-section {
+    padding: 10px;
+    color: white;
+}
+
+.software-banner .row-section-1 {
+    height:200px !important;
+    background-color: rgb(0,0,0); /* Match this with the image background color */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.software-banner .row-section-1 a{
+    text-decoration:none;
+}
+
+.software-banner .row-section-2,
+.software-banner .row-section-3 {
+    height: 50px; /* Adjust this height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.software-banner .row-section-2 {
+    background-color: white;
+}
+
+.software-banner .row-section-3 {
+    background-color: #0D6EFD;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.software-banner .row-section-3 a{
+    text-decoration:none;
+    color:white;
+}
+/* second card */
+.software-video {
+    background-image: url('/img/banner2.jpg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set the height of the card */
+    border-radius: 8px;
+    position: relative;
+}
+.video-text {
+    left: 10px; /* Adjust this value to position the content */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.video_btn {
+    background-color: #0D6EFD; /* Button background color */
+    color: white;
+    width:250px;
+    padding: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align:center;
+    display: inline-block;
+}
+
+.back-image {
+    background-image: url('/img/home.jpeg'); /* Set the background image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set the height of the card */
+    border-radius: 8px;
+    position: relative;
+}
+.inner_content {
+    bottom: 20px; /* Adjust this value to position the content */
+    left: 20px; /* Adjust this value to position the content */
+    right: 20px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+.signup_btn {
+    background-color: #0D6EFD; /* Button background color */
+    color: white;
+    width:300px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align:center;
+    display: inline-block;
+}
+//slider
+.software-slider {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background: #fff;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure content stays within the card */
+}
+
+.software-slider .carousel-item img {
+    border-radius: 8px; /* Apply the same border-radius to the images */
+}
+
+.carousel-caption h2,
+.carousel-caption p {
+    text-align: center;
+    font-weight:bold;
+}
+
+//request recall
+.request_call{
+    justify-content: center;
+    align-items: center;
+}
+.request_call_img {
+    margin-top:30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 8px; /* Optional: Rounded corners */
+    overflow: hidden; 
+    background-color: #f8f9fa; /* Optional: Add background color for better visibility */
+    height: 80px; /* Set the height of the image */
+    width: 80px;  /* Set the width of the image */
+    object-fit: cover; /* Ensures the image covers the entire card without distortion */
+}
+.request_call_btn {
+    background-color: #f8f9fa; /* Background color */
+    color: #0D6EFD; /* Text color */
+    font-weight: bold;
+    border-radius: 8px; /* Rounded corners */
+    border: none; /* Remove default border */
+}
+
+.request_call_btn:hover {
+    background-color: #f8f9fa; /* Keep the background color same on hover */
+    color: #0D6EFD; /* Keep the text color same on hover */
+    border-radius: 8px; /* Keep rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+//software category
+.container {
+
+}
+.title_allcategory_group{
+    margin-top:30px;
+    margin-bottom:30px;
+    color:#0D6EFD;
+}
+.accordion-item{
+    padding:10px 20px;
+}
+.more-items{
+    padding:10px 20px;
+}
+.accordion_tab-label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bi-plus-lg{
+    color:#0D6EFD;
+    font-weight:bold;
+}
+.accordion_tab-content {
+    display: none;
+}
+
+.accordion_tab-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.accordion_tab-content li {
+    border-bottom: 1px solid #d6dbdf;
+    margin: 15px 0;
+
+}
+.accordion_tab-content li a{
+    text-decoration:none;
+}
+
+.show-all-button {
+    display: block;
+    margin: 2rem auto;
+}
+.accordion_tab-label.active {
+    border: 1px solid #0D6EFD; /* Adjust the color and width as needed */
+    border-radius: 5px; /* Optional: for rounded corners */
+    padding: 10px 15px; /* Optional: to ensure padding inside the border */
+}
+//faq section
+.faq-card {
+    transition: width 0.2s ease;
+}
+.faq-card.expanded {
+    width: 500px;
+}
+.faq-card .h5{
+    text-size:42px;
+
+}
+.faq-question {
+    font-size: 18px; /* Adjust this value as needed */
+}
+
+.toggle-icon {
+    font-size: 24px; /* Adjust this value as needed */
+}
+.btn-link{
+    text-decoration:none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .navbar-collapse .nav-item .nav-link{
+        align-items:center;
+    }
+    .header-section {
+        padding: 20px;
+        height: auto; /* Adjust height to be dynamic based on content */
+    }
+
+    .header-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .header-subtitle {
+        padding: 8px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .search-container {
+        max-width: 100%; /* Make sure it utilizes the available space */
+        margin: 0 auto; /* Center the container */
+        padding: 5px;
+        background-color: #fff; /* Add a background color for better visibility */
+    }
+
+    .input-group {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-input {
+        height: 35px; /* Increase height for better usability */
+        padding: 5px;
+        border-radius: 12px;
+        font-size: 12px;
+        width: 100%; /* Make input fill the available space */
+    }
+
+    .input-group-text {
+        height: 35px;
+        border: 1px solid #252530;
+        border-radius: 12px;
+        padding: 5px 10px;
+        background-color: #f8f9fa; /* Add a subtle background color */
+    }
+
+    .input-group-text .bi-search {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .btn-review, .btn-sign {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .category, .item_category {
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 1.5rem;
+        padding-top: 0.7rem;
+        padding-bottom: 0.3rem;
+    }
+
+    .footer-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 6px;
+    }
+
+    .footer-heading {
+        padding-bottom: .2rem;
+        font-size: 12px;
+    }
+
+    .footer-logo {
+        max-width: 12px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+    .footer-links {
+        font-size: 8px;
+    }
+
+    .footer-nav-item {
+        margin-bottom: 4px;
+    }
+
+    .footer-nav-link {
+        font-size: 8px;
+        padding: 1.5px 0px;
+    }
+    .footer-toogle-btn{
+        display:none;
+    }
+    .footer .country-name{
+        margin-left:10px;
+        font-size: 12px;
+    }
+    .footer .country-name-text li{
+        font-size: 11px;
+        margin-left:10px;
+    }
+    .footer .country-name-btn{
+        margin-left:10px;
+    }
+
+    .navbar-brand img {
+        width: 120px;
+        height: 35px;
+    }
+    /* software_discover */
+
+    .software-banner {
+        height:240px !important;
+    }
+
+    .software-banner .row-section {
+        padding: 10px;
+        color: white;
+    }
+
+    .software-banner .row-section-1 img{
+        position:left;
+        height:100px;
+        width:130px;
+    }
+    .software-banner .row-section-1 .text-center h4{
+        font-size:16px;
+    }
+    .row-section-1 .text-center p{
+        font-size:6px;
+    }
+
+    .software-banner .row-section-2,
+    .software-banner .row-section-3 {
+        height: 25px; /* Adjust this height as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    /* second card */
+    .software-video {
+        height: 100px; /* Set the height of the card */
+        border-radius: 8px;
+    }
+
+    .signup_btn {
+        width:200px;
+    }
+    .request_call_img {
+        margin-top:10px;
+        height: 40px; /* Set the height of the image */
+        width: 40px;  /* Set the width of the image */
+    }
+    .request_call .col-12 .text-center h1 {
+        font-size:20px;
+    }
+    .request_call .col-12 .text-center h5 {
+        font-size:16px;
+    }
+    .request_call .col-12 .text-center p {
+        font-size:12px;
+    }
+    .request_call_btn{
+        font-size:14px;
+    }
+    .title_allcategory_group{
+        font-size:18px;
+    }
+    .accordion_tab-label{
+        font-size:13px;
+    }
+    .accordion_tab-content li{
+        font-size:13px;
+    }
+    .faq h2{
+        font-size:20px;
+    }
+    .faq .faq-card .card-header h5 .faq-question{
+        font-size:14px;
+    }
+
+}
